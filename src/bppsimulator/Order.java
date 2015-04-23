@@ -4,11 +4,13 @@
  * and open the template in the editor.
  */
 package bppsimulator;
-
-/**
- *
- * @author Paul
- */
+import java.util.ArrayList;
 public class Order {
+    private ArrayList<Product> order;
+    private ArrayList<ArrayList<Product>> output;
     
+    public Order(ArrayList<Product> o){
+        order = o;
+    }
+            
 }
